@@ -11,12 +11,13 @@ body {
 }
 
 #menu1{
-    background-color: rgb(22, 22, 22);
+    background-color: rgb(255, 255, 255);
     overflow: auto;
     font-family: "Opens Sans", sans-serif;
     width: 100%;
     height: auto;
     padding-right: 130px;
+    position: fixed;
     
 }
 
@@ -25,15 +26,17 @@ body {
 }
 
 #menu1 a{
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-decoration: none;
-    padding: 14px 16px;
-    font-size: 24px;
+    font-size: 20px;
     float: right;
+    margin-right: 2px;
 }
 
 #menu1 li a:hover {
-    background-color: rgb(29, 77, 207)
+    background-color: rgb(47, 47, 47);
+    cursor: pointer;
+    color: #fff;
 }
 
 
@@ -45,7 +48,22 @@ body {
 
 #logo {
     float: left;
-    padding-left: 130px;
+    padding-left: 10px;
+    width: 3cm;
+    cursor: pointer;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
 
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.botoes {
+    padding-bottom: 0px;
+    padding-top: 30px;
+    margin-right: 10;
+    margin-left: 10;
 
 }
