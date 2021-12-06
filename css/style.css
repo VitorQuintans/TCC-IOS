@@ -2,27 +2,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Merienda:wght@400;700&family=Open+Sans&family=Rubik+Mono+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Shade&family=Merienda:wght@400;700&family=Open+Sans&family=Rubik+Mono+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Bungee+Shade&family=Merienda:wght@400;700&family=Open+Sans&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Bungee+Shade&family=Merienda:wght@400;700&family=Open+Sans&family=Patua+One&family=Rubik+Mono+One&display=swap');
 
 * {
-    margin: 0 auto;
-    padding: 0;
     box-sizing: border-box;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+
+}
+
+.colorback {
+    background-image: linear-gradient(to bottom, rgba(90, 96, 202, 0.747),rgba(187, 45, 151, 0.432));
+    height: 590px;
+    z-index: -100;
+    width: 100%;
 }
 
 body {
-    height: 2500px;
+    width: auto;
+    height: 200px;
+    overflow: auto;
+    align-items: center;
 }
 
 #menu1{
     background-color: rgb(255, 255, 255);
     overflow: auto;
     font-family: "Opens Sans", sans-serif;
-    min-width: 100%;
-    min-height: auto;
     padding-right: 0px;
     position: fixed;
     display: inline;
     z-index: 1;
+    padding-left: 0px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    margin-top: 0px;
+    user-select: none;
 
 }
 
@@ -46,9 +63,12 @@ body {
 
 
 #imgfundo {
-    background: url(../img/bestback.png);
-    width: 100%;
-    height: 80%
+    width: 400px;
+    height: 400px;
+    z-index: -99;
+    position: flex;
+    user-select: none;
+    
 }
 
 #logo {
@@ -58,6 +78,7 @@ body {
     cursor: pointer;
     padding-top: 0px;
     padding-bottom: 0px;
+    user-select: none;
 }
 
 .container {
@@ -65,51 +86,105 @@ body {
     margin: 0 auto;
     height: 2cm;
     display: inline;
+    margin-left: 0px;
 }
 
 #bemvindo {
-    font-size: 70px;
-    margin-left: 70px;
+    margin-left: 120px;
     position: absolute;
-    margin-top: 210px;
-    font-size: 80px;
-    font-family: "Bungee Shade";
-    color: rgb(32, 32, 32);
+    margin-top: 130px;
+    font-size: 120px;
+    text-align: center;
+    font-family: "Bebas Neue";
+    color: rgba(27, 27, 27, 0.911);
+    text-shadow: 1px 1px 14px rgb(250, 250, 250) ;
 
 }
 
-#tecvitor {
+#escola {
+    margin-left: 120px;
     font-size: 70px;
-    margin-left: 80px;
+    margin-top: 210px; 
     position: absolute;
-    margin-top: 390px;
-    font-size: 90px;
+    text-align: center;
+    color: rgba(248, 248, 248, 0.842);
     font-family: "Bebas Neue";
-    color: rgb(235, 70, 48);
-    text-shadow: rgb(0, 0, 0);
+    text-shadow: 1px 1px 14px rgb(14, 14, 14) ;
+
 
 }
 
 #informacoes {
-    font-size: 70px;
-    margin-left: 140px;
+    font-size: 80px;
+    margin-left: 120px;
     position: absolute;
-    margin-top: 650px;
+    margin-top: 470px;
     font-size: 90px;
     font-family: "Bebas Neue";
-    color: rgb(255, 125, 19);
-    text-shadow: rgb(0, 0, 0);
+    color: rgba(8, 8, 8, 0.89);
+    text-shadow: 1px 1px 14px rgb(233, 233, 233) ;
 }
 
 #introducao {
     text-align: center;
-    font-size: 70px;
-    margin-top: 40px;
+    font-size: 50px;
+    margin-top: 60px;
+    text-shadow: 1px 3px 5px rgb(19, 18, 18);
+    
 }
 
-#titulos {
-    font-size: 50px;
+.texto {
+    font-size: 30px;
     text-align: center;
-    padding-top: 7px;
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 10px 13px rgba(0, 0, 0, 0.822);
+}
+
+
+.container1 {
+    display: flex;
+    margin-left: 70px;
+    font-size: 15px;
+    margin-top: 100px;
+    text-shadow: 1px 10px 13px black;
+    text-align: justify left;
+}
+
+.botao{
+    position: absolute;
+    margin-left: 630px;
+    top: 1738px;
+    font-size: 37px;
+    border: 1px  solid black;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, rgb(90, 96, 202, 0.7),rgb(187, 45, 151, 0.432));
+    color: rgb(12, 12, 12);
+    text-align: center;
+    text-shadow: 1px 1px 20px white;
+}
+
+.umpoucosobrenos {
+    text-shadow: 1px 10px 13px rgb(0, 0, 0);
+}
+
+.rodape{
+    background-color: rgba(0, 0, 0, 0.842);
+    width: 100%;
+    height: 70px;
+}
+
+.rodape p {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0px;
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-bottom: 25px;
+    padding-right: 50px;
+
 }
 
