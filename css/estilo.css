@@ -93,6 +93,7 @@ video {
     text-shadow: 1px 1px 3px rgba(58, 58, 58, 0.596);
     width: 120px;
     height: 60px;
+    z-index: 1;
     
 }
 
@@ -248,7 +249,7 @@ video {
     margin-right: 20px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: 0px 0px 4px rgb(0, 0, 0);
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.548);
     font-size: 20px;
     justify-content: center;
     width: 500px;
@@ -325,5 +326,6 @@ video {
     top: 2470px;
     left: 60px;
     font-size: 24px;
+    cursor: pointer;
 
 }
