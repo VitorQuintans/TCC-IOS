@@ -12,13 +12,13 @@
 
 .menu {
     align-items: center;
-    justify-content: center;
+    justify-content: justify;
     display: flex;
-    width: 1190px;
     height: 100px;
     z-index: 2;
     text-decoration: none;
     list-style: none;
+    margin-left: 200px;
 }
 
 .menu ul {
@@ -30,13 +30,13 @@
     z-index: 2;
     text-decoration: none;
     list-style: none;
+    
 }
 
 .menu ul li{
     align-items: center;
-    justify-content: center;
+    justify-content: justify;
     display: flex;
-    width: 1190px;
     height: 70px;
     z-index: 2;
     text-decoration: none;
