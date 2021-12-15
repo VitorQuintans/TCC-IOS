@@ -15,11 +15,11 @@
 
 .menu {
     align-items: center;
-    justify-content: center;
+    justify-content: justify;
     display: flex;
-    width: 1190px;
     height: 100px;
     z-index: 2;
+    margin-left: 200px;
     text-decoration: none;
     list-style: none;
 }
