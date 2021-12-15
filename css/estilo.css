@@ -19,7 +19,7 @@
     display: flex;
     height: 100px;
     z-index: 2;
-    margin-left: 200px;
+    margin-left: 20%;
     text-decoration: none;
     list-style: none;
 }
@@ -277,7 +277,7 @@ video {
     right: 0px;
     position: absolute;
     width: 43%;
-    height: 85%;
+    height: 69%;
     border: 1px solid black;
     display: flex;
     margin-top: 3%;
