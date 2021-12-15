@@ -12,13 +12,14 @@
 
 .menu {
     align-items: center;
-    justify-content: justify;
+    justify-content: center;
     display: flex;
     height: 100px;
     z-index: 2;
     text-decoration: none;
     list-style: none;
-    margin-left: 20%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
 }
 
 .menu ul {
@@ -139,7 +140,7 @@
     position: absolute;
     right: 0px;
     margin-right: 3.5%;
-    margin-top: 3.5%;
+    margin-top: 7.5%;
     border: 1px solid black;
     display: flex;
 }
