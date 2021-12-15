@@ -15,13 +15,14 @@
 
 .menu {
     align-items: center;
-    justify-content: justify;
+    justify-content: center;
     display: flex;
     height: 100px;
     z-index: 2;
-    margin-left: 20%;
+    margin-left: 7.5%;
     text-decoration: none;
     list-style: none;
+    margin-right: 7.5%;
 }
 
 .menu ul {
