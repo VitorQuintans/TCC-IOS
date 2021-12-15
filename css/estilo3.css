@@ -16,13 +16,14 @@
 
 .menu {
     align-items: center;
-    justify-content: justify;
+    justify-content: center;
     display: flex;
     height: 100px;
     z-index: 2;
     text-decoration: none;
     list-style: none;
-    margin-left: 20%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
 }
 
 .menu ul {
@@ -182,7 +183,7 @@ main {
     justify-content: center;
     font-family: Oswald, Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-top: 60%;
+    margin-top: 70%;
     margin-bottom: 1.5%;
     font-size: 80px;
     padding: 0px;
